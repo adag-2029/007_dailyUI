@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>SYSTEM OF SETTINGS</h1>
+    <div class="setting-section">
+        <h2>Sound Settings</h2>
+        <label for="volume">Volume</label>
+        <input type="range" id="volume" name="volume" min="0" max="100">
+
+    </div>
+    <div class="setting-section">
+        <h2>Notifications</h2>
+        <label for="email-notifications">Email Notifications</label>
+        <input type="checkbox" id="email-notifications" name="email-notifications">
+        
+        <label for="sms-notifications">SMS Notifications</label>
+        <input type="checkbox" id="sms-notifications" name="sms-notifications">
+    </div>
+    <div class="setting-section">
+        <h2>Screen Time</h2>
+        <label for="screen-time-limit">Daily Screen Time Limit (hours)</label>
+        <input type="number" id="screen-time-limit" name="screen-time-limit" min="0" max="24">
+        <div class="setting-section">
+            <h2>Wi-Fi Settings</h2>
+            <label for="wifi-toggle">Wi-Fi</label>
+            <input type="checkbox" id="wifi-toggle" name="wifi-toggle">
+            
+            <label for="wifi-network">Wi-Fi Network</label>
+            <input type="text" id="wifi-network" name="wifi-network">
+        </div>
+    </div>
+    </div>
+</body>
+</html>
